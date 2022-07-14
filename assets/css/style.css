@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Roboto+Condensed:wght@300&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:wght@100&display=swap');
+
+html {
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Beau Rivage, sans-serif;
+}
+
+.heading {
+    font-size: 5rem;
+    position: relative;
+    align-items: center;
+
+    display: flex;
+    justify-content: center;
+}
+
+#logo > img{
+    width: 5rem;
+    height: auto;
+    margin-left: 3rem;
+    overflow: hidden;
+}
+
+nav {
+    height: 8rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    border-bottom: #000 3px solid;    
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999999999999;
+}
+
+/* Background image */
+
+#thread-wallpaper > img {
+    position: relative;
+    width: 100%;
+    height: 100rem;
+    opacity: 0.5;
+    overflow: hidden;
+}
+
+/* Footer */
+
+footer {
+    border-top: 3px solid;
+    width: 100%;
+    text-align: center;
+    position: absolute;  
+}
+
+.social-networks {
+    text-align: center;
+    position: relative;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 3rem;
+    margin: 30px 0 30px;
+    padding-inline: 5%;
+    color: #000;
+}
+
+.social-networks i:hover {
+	transform: scale(1.2);
+	transition: .5s transform;
+}
+
