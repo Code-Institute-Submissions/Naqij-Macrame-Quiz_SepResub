@@ -64,24 +64,6 @@ nav {
     align-items: center;
 }
 
-.play-btn {
-    font-size: 3rem;
-    padding: 2rem 0;
-    width: 30rem;
-    text-align: center;
-    text-decoration: none;
-    color: #000;
-    background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(255, 0, 0) 100%);
-    border-radius: 0.5rem;
-}
-
-.play-btn:hover {
-    cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 0, 0, 0.7);
-    transition: transform 200ms;
-    transform: scale(1.05);
-}
-
 .question-box {
     width: 50rem;
     height: 15rem;
@@ -159,9 +141,10 @@ nav {
 }
 
 .correct-answers {
-    width: 18rem;
+    width: 15rem;
     height: 6rem;
     margin: auto;
+    margin-left: 1rem;
     background-color: rgb(0, 119, 255);
     border: #000 1px solid;
     display: flex;
@@ -169,10 +152,32 @@ nav {
     align-items: center;
 }
 
-.wrong-answers {
-    width: 18rem;
+.play-again-btn {
+    width: 15rem;
     height: 6rem;
     margin: auto;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    background-color: rgb(255, 0, 0);
+    border: #000 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-again-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 0, 0, 0.7);
+    transition: transform 200ms;
+    transform: scale(1.05);
+}
+
+.wrong-answers {
+    width: 15rem;
+    height: 6rem;
+    margin: auto;
+    margin-right: 1rem;
     background-color: rgb(0, 119, 255);
     border: #000 1px solid;
     display: flex;
