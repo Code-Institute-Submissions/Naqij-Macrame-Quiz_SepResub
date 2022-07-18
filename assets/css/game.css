@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Ibarra+Real+Nova&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Ibarra+Real+Nova:wght@400;500&family=Lato:wght@300&display=swap');
 
 html {
     font-size: 10px;
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    font-family: Beau Rivage, sans-serif;
+    font-family: Lato, sans-serif;
 }
 
 #logo > img{
@@ -30,14 +30,12 @@ nav {
     align-items: center;
     border-bottom: #000 3px solid;    
     width: 100%;    
+    justify-content: space-between;
 }
 
 .heading {
     font-size: 5rem;
-    align-items: center;
-    display: flex;
-    justify-items: center;
-    justify-content: center;
+    font-family: Beau Rivage, sans-serif;
     padding: 5rem;
 }
 
@@ -67,6 +65,7 @@ nav {
 .question-box {
     width: 50rem;
     height: 15rem;
+    font-size: 5rem;
     margin: auto;
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -80,6 +79,7 @@ nav {
 .option1 {
     width: 50rem;
     height: 5rem;
+    font-size: 2rem;
     font-family: Ibarra Real Nova, sans-serif;
     margin: auto;
     margin-bottom: 3rem;
@@ -93,6 +93,7 @@ nav {
 .option2 {
     width: 50rem;
     height: 5rem;
+    font-size: 2rem;
     font-family: Ibarra Real Nova, sans-serif;
     margin: auto;
     margin-bottom: 3rem;
@@ -106,6 +107,7 @@ nav {
 .option3 {
     width: 50rem;
     height: 5rem;
+    font-size: 2rem;
     font-family: Ibarra Real Nova, sans-serif;
     margin: auto;
     margin-bottom: 3rem;
@@ -119,6 +121,7 @@ nav {
 .option4 {
     width: 50rem;
     height: 5rem;
+    font-size: 2rem;
     font-family: Ibarra Real Nova, sans-serif;
     margin: auto;
     margin-bottom: 5rem;
@@ -130,12 +133,11 @@ nav {
 }
 
 .score-box {
-    width: 40rem;
+    width: 50rem;
     height: 10rem;
     margin: auto;
-    margin-bottom: 5rem;
-    background-color: rgb(135, 135, 135);
-    border: #000 1px solid;
+    margin-bottom: 5rem;    
+    
     display: flex;
     justify-content: center;
 }
@@ -143,6 +145,8 @@ nav {
 .correct-answers {
     width: 15rem;
     height: 6rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
     margin: auto;
     margin-left: 1rem;
     background-color: rgb(0, 119, 255);
@@ -155,6 +159,8 @@ nav {
 .play-again-btn {
     width: 15rem;
     height: 6rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
     margin: auto;
     margin-right: 1rem;
     margin-left: 1rem;
@@ -176,6 +182,8 @@ nav {
 .wrong-answers {
     width: 15rem;
     height: 6rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
     margin: auto;
     margin-right: 1rem;
     background-color: rgb(0, 119, 255);
