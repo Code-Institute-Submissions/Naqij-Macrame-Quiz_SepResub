@@ -134,6 +134,49 @@ nav {
 
 */
 
+.question {
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 50rem;
+    border-radius: 4px;
+    background: rgb(255, 0, 0);
+    font-size: 4rem;
+    padding: 2rem;
+}
+
+.option-box {
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 50rem;
+    border-radius: 4px;
+    background: rgb(0, 255, 8);
+    font-size: 3rem;
+}
+
+.option-box:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 255, 13, 0.5);
+    transform: scale(1.02);
+    transition: transform 100ms;
+}
+
+.option-prefix {
+    padding: 2rem 2.5rem;
+    color: white;
+}
+
+.option-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+
+
 .score-box {
     width: 50rem;
     height: 10rem;
@@ -225,3 +268,9 @@ footer {
 	transition: .5s transform;
 }
 
+
+@media screen and (max-width: 700px) {
+    .option-box {
+        min-width: 40rem;
+    }
+}
