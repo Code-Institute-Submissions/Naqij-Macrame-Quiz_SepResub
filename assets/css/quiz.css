@@ -61,80 +61,8 @@ nav {
     justify-content: center;
     align-items: center;
 }
-/*
-.question-box {
-    width: 50rem;
-    height: 15rem;
-    font-size: 5rem;
-    margin: auto;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    background-color: rgb(255, 0, 0);
-    border: #000 1px solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.option1 {
-    width: 50rem;
-    height: 5rem;
-    font-size: 2rem;
-    font-family: Ibarra Real Nova, sans-serif;
-    margin: auto;
-    margin-bottom: 3rem;
-    background-color: rgb(0, 255, 0);
-    border: #000 1px solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.option2 {
-    width: 50rem;
-    height: 5rem;
-    font-size: 2rem;
-    font-family: Ibarra Real Nova, sans-serif;
-    margin: auto;
-    margin-bottom: 3rem;
-    background-color: rgb(0, 255, 0);
-    border: #000 1px solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.option3 {
-    width: 50rem;
-    height: 5rem;
-    font-size: 2rem;
-    font-family: Ibarra Real Nova, sans-serif;
-    margin: auto;
-    margin-bottom: 3rem;
-    background-color: rgb(0, 255, 0);
-    border: #000 1px solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.option4 {
-    width: 50rem;
-    height: 5rem;
-    font-size: 2rem;
-    font-family: Ibarra Real Nova, sans-serif;
-    margin: auto;
-    margin-bottom: 5rem;
-    background-color: rgb(0, 255, 0);
-    border: #000 1px solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-*/
-
-.question {
+.quiz-question {
     display: flex;
     justify-items: center;
     margin: auto;
@@ -147,18 +75,19 @@ nav {
     padding: 2rem;
 }
 
-.option-box {
+.quiz-options li {
     display: flex;
     justify-items: center;
     margin: auto;
     margin-bottom: 2rem;
+    padding: 1rem;
     width: 50rem;
     border-radius: 4px;
     background: rgb(0, 255, 8);
     font-size: 3rem;
 }
 
-.option-box:hover {
+.quiz-options li:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 255, 13, 0.5);
     transform: scale(1.02);
