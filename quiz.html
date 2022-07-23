@@ -22,26 +22,30 @@
         </div>
 
         <h1 class="heading">Art Quiz!</h1>
-    </nav>    
+    </nav>
 
-    <div class = "quiz-body">
-        <h2 class = "quiz-question" id = "question">What is my full name?</h2>
-        <ul class = "quiz-options">
-            <li>A. Syed Naqi</li>
-            <li>B. Syed Naqi Shah</li>
-            <li>C. Syed Naqi Jaffari</li>
-            <li>D. Naqi Jaffari</li>
-        </ul>
-        <div id = "result">
-        </div>
-    </div>
+        <section class="quiz-area">
 
-    <div class="score-box">
-        <div class="correct-answers"> Correct Answers: 0</div>
-        <a href="index.html" class="play-again-btn">Lets Play Again!</a>
-        <div class="wrong-answers"> Wrong Answers: 0</div>
-    </div> 
+            <div class = "quiz-score">
+                <span id="correct-score"></span>0/0<span id="total-question"></span>
+            </div>
 
+            <div>
+                <h2 class = "quiz-question" id = "question">What is the the capital of Ireland?</h2>
+                <ul class = "quiz-options">
+                    <li>A. Cork</li>
+                    <li>B. Dublin</li>
+                    <li>C. Galway</li>
+                    <li>D. Kerry</li>
+                </ul>
+                <div id = "result">
+                </div>
+            </div>
+            <div class = "quiz-foot">
+                <button type="button" id="check-answer">Check Answer</button>
+                <button type="button" id="play-again">Play Again!</button>
+            </div>
+        </section>
     <footer>
 
     <!-- Social network links -->
