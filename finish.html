@@ -24,9 +24,16 @@
     <h1 class="heading">Art Quiz!</h1>
 
         <div class="container">
-            <div id="home" class="flex-column flex-center">
+            <div id="finish" class="flex-column flex-center">
+                <h2 id="finalscore">0</h2>
+                <form class="finish-form-container">
+                    <h3 id="finish-text">Enter you name to save your score</h3>
+                    <input type="text" name="name" id="username" placeholder="Enter your name">
+                    <button class="btn" id="save-score-btn" type="submit" onclick="saveHighScore(event)" disabled>Save
+                    </button>
+                </form>
                 <a href="quiz.html" class="play-btn">Lets Play!</a>
-                <a href="finish.html" class="btn" id="highscore-btn">High Scores</a>
+                <a href="finish.html" class="btn" id="finish-btn">High Scores</a>
             </div>
         </div>
 

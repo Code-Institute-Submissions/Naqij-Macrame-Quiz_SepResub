@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/quiz.css">
 
-    <title>Quiz Page</title>
+    <title>Art Quiz</title>
 </head>
 <body>
     <nav>
@@ -26,22 +26,26 @@
 
         <section class="quiz-area">
 
-            <div class = "quiz-score">
-                <span id="correct-score"></span>0/0<span id="total-question"></span>
+            <div id="result-title">
+                <span id="your-score">Score</span>
+                <span id="all-question">Total Question</span>
+            </div>
+            
+            <div class="quiz-score">
+                <span id="correct-score"></span>/<span id="total-question"></span>
             </div>
 
             <div>
-                <h2 class = "quiz-question" id = "question">What is the the capital of Ireland?</h2>
-                <ul class = "quiz-options">
-                    <li>A. Cork</li>
+                <h2 class="quiz-question" id="question"> <!--What is the the capital of Ireland? --> </h2>
+                <ul class="quiz-options">
+                   <!-- <li>A. Cork</li>
                     <li>B. Dublin</li>
                     <li>C. Galway</li>
-                    <li>D. Kerry</li>
+                    <li>D. Kerry</li> -->
                 </ul>
-                <div id = "result">
-                </div>
+                <div id="result"></div>
             </div>
-            <div class = "quiz-foot">
+            <div class="quiz-foot">
                 <button type="button" id="check-answer">Check Answer</button>
                 <button type="button" id="play-again">Play Again!</button>
             </div>

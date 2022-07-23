@@ -33,12 +33,12 @@ nav {
 }
 
 .heading {
-    font-size: 5rem;
+    font-size: 7rem;
     align-items: center;
     display: flex;
     justify-items: center;
     justify-content: center;
-    padding: 5rem;
+    padding-top: 5rem;
 }
 
 /* game play button*/
@@ -65,7 +65,7 @@ nav {
 }
 
 .play-btn {
-    font-size: 3rem;
+    font-size: 4rem;
     padding: 2rem 0;
     width: 30rem;
     text-align: center;
@@ -77,11 +77,29 @@ nav {
 
 .play-btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 0, 0, 0.7);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 0, 0, 0.7);
     transition: transform 200ms;
     transform: scale(1.05);
 }
 
+#highscore-btn {
+    font-size: 4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    margin: 5rem;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    border-radius: 0.5rem;
+}
+
+#highscore-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 0, 0, 0.7);
+    transition: transform 200ms;
+    transform: scale(1.05);
+}
 
 /* Footer */
 
