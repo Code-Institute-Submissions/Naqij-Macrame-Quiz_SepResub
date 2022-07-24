@@ -63,16 +63,6 @@ nav {
     align-items: center;
 }
 
-h2 {
-    font-size: 5rem;
-    margin-top: 2rem;
-}
-
-h3 {
-    font-size: 3rem;
-    font-family: Lato, sans-serif;
-}
-
 #savescorebtn {
     font-size: 4rem;
     padding: 2rem 0;
@@ -125,6 +115,25 @@ h3 {
 }
 
 #highscore-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 0, 0, 0.7);
+    transition: transform 200ms;
+    transform: scale(1.05);
+}
+
+.home-btn {
+    font-size: 4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    border-radius: 0.5rem;
+}
+
+.home-btn:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 0, 0, 0.7);
     transition: transform 200ms;

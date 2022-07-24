@@ -23,33 +23,37 @@
 
         <h1 class="heading">Art Quiz!</h1>
     </nav>
+    <div class="container">
+        <div id="quiz" class="flex-column flex-center">
+            <div id="hud">
+                <div class="hud-item">
+                    <p id="progressText" class="hud-prefix">Question</p>                    
+                </div>
+            </div>
+            <div class="hud-item">
+                <p class="hud-prefix">Score</p>
+                <h1 class="hud-main-text" id="score">0</h1>
+            </div>
+            <div id="question">Where is Dublin?</div>
+    <div class="choice-container">
+        <p class="choice-prefix">A</p>
+        <p class="choice-text" data-number="1">Choice 1</p>
+    </div>
+    <div class="choice-container">
+        <p class="choice-prefix">B</p>
+        <p class="choice-text" data-number="2">Choice 2</p>
+    </div>
+    <div class="choice-container">
+        <p class="choice-prefix">C</p>
+        <p class="choice-text" data-number="3">Choice 3</p>
+    </div>
+    <div class="choice-container">
+        <p class="choice-prefix">D</p>
+        <p class="choice-text" data-number="4">Choice 4</p>
+    </div>
+        </div>
+    </div>
 
-        <section class="quiz-area">
-
-            <div id="result-title">
-                <span id="your-score">Score</span>
-                <span id="all-question">Total Question</span>
-            </div>
-            
-            <div class="quiz-score">
-                <span id="correct-score"></span>/<span id="total-question"></span>
-            </div>
-
-            <div>
-                <h2 class="quiz-question" id="question"> <!--What is the the capital of Ireland? --> </h2>
-                <ul class="quiz-options">
-                   <!-- <li>A. Cork</li>
-                    <li>B. Dublin</li>
-                    <li>C. Galway</li>
-                    <li>D. Kerry</li> -->
-                </ul>
-                <div id="result"></div>
-            </div>
-            <div class="quiz-foot">
-                <button type="button" id="check-answer">Check Answer</button>
-                <button type="button" id="play-again">Play Again!</button>
-            </div>
-        </section>
     <footer>
 
     <!-- Social network links -->
