@@ -11,6 +11,7 @@
     <script src="https://kit.fontawesome.com/0ea4bc6e41.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/highscore.css">
 
     <title>Art Quiz</title>
 </head>
@@ -20,21 +21,15 @@
         <a href="index.html"><h1 id="logo"><img src="assets/images/logo.jpg" alt="Logo"></h1></a>
         </div>
         <h1 class="heading">Art Quiz!</h1>
-    </nav>    
+    </nav> 
 
-        <div class="container">
-            <div id="finish" class="flex-column flex-center">
-                <h2 id="finalscore">0</h2>
-                <h3 id="finish-text">Enter you name to save your score</h3>
-                <form class="finish-form-container">
-                    <input type="text" name="name" id="username" placeholder="Enter your name">
-                    <button class="btn" id="savescorebtn" type="submit" onclick="saveHighScore(event)" disabled>Save
-                    </button>
-                </form>
-                <a href="quiz.html" class="play-btn">Lets Play!</a>
-                <a href="highscore.html" class="btn" id="highscore-btn">High Scores</a>
-            </div>
+    <div class="container">
+        <div id="highScores" class="flex-column flex-center">
+            <div id="finalScore"></div>
+            <a href="quiz.html" class="play-btn">Lets Play Again!</a>            
         </div>
+    </div>
+
 
     <footer>
 

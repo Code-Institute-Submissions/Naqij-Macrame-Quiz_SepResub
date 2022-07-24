@@ -73,7 +73,7 @@ h3 {
     font-family: Lato, sans-serif;
 }
 
-#save-score-btn {
+#savescorebtn {
     font-size: 4rem;
     padding: 2rem 0;
     width: 30rem;
@@ -86,7 +86,7 @@ h3 {
     font-family: Beau Rivage, sans-serif;
 }
 
-#save-score-btn:hover {
+#savescorebtn:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 0, 0, 0.7);
     transition: transform 200ms;
@@ -112,7 +112,7 @@ h3 {
     transform: scale(1.05);
 }
 
-#finish-btn {
+#highscore-btn {
     font-size: 4rem;
     padding: 2rem 0;
     width: 30rem;
@@ -124,7 +124,7 @@ h3 {
     border-radius: 0.5rem;
 }
 
-#finish-btn:hover {
+#highscore-btn:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 0, 0, 0.7);
     transition: transform 200ms;
@@ -157,10 +157,6 @@ input::placeholder {
     margin-bottom: 3rem;
     width: 100%;
     outline: none;
-}
-
-#save-score-btn {
-    
 }
 
 /* Footer */
