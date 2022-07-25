@@ -1,7 +1,8 @@
 const question = document.querySelector('#question');
-const choices = document.querySelector('.choice-text');
+const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
+const progressBarFull = document.querySelector('#progressBarFull');
 
 let currentQuestion = {}
 let acceptingAnswers = true
@@ -11,53 +12,53 @@ let availableQuestions = []
 
 let questions = [
     {
-        question: 'Which Spanish artist painted the series known as Fantasy and Invention in the 18th century?',
-        choice1: 'Francisco Goya',
-        choice2: 'Diego Velázquez',
-        choice3: 'Pablo Picasso',
-        choice4: 'Josefa Bayeu',
+        question: "Which Spanish artist painted the series known as Fantasy and Invention in the 18th century?",
+        choice1: "Francisco Goya",
+        choice2: "Diego Velázquez",
+        choice3: "Pablo Picasso",
+        choice4: "Josefa Bayeu",
         answer: 1,
     },
 
     {
-        question: 'Which artist said Everything you can imagine is real?',
-        choice1: 'Francisco Goya',
-        choice2: 'Diego Velázquez',
-        choice3: 'Pablo Picasso',
-        choice4: 'Josefa Bayeu',
+        question: "Which artist said Everything you can imagine is real?",
+        choice1: "Francisco Goya",
+        choice2: "Diego Velázquez",
+        choice3: "Pablo Picasso",
+        choice4: "Josefa Bayeu",
         answer: 3,
     },
 
     {
-        question: 'Surrealist painter Rene Magritte was born in which country?',
-        choice1: 'Belgium',
-        choice2: 'England',
-        choice3: 'France',
-        choice4: 'Ireland',
+        question: "Surrealist painter Rene Magritte was born in which country?",
+        choice1: "Belgium",
+        choice2: "England",
+        choice3: "France",
+        choice4: "Ireland",
         answer: 1,
     },
 
     {
-        question: 'The Lady Lever Art Gallery is in which English city?',
-        choice1: 'London',
-        choice2: 'Liverpool',
-        choice3: 'Manchester',
-        choice4: 'Birmingham',
+        question: "The Lady Lever Art Gallery is in which English city?",
+        choice1: "London",
+        choice2: "Liverpool",
+        choice3: "Manchester",
+        choice4: "Birmingham",
         answer: 2,
     },
 
     {
-        question: 'Bowl of Fruit, Violin and Bottle is the work of which artist?',
-        choice1: 'Francisco Goya',
-        choice2: 'Diego Velázquez',
-        choice3: 'Pablo Picasso',
-        choice4: 'Josefa Bayeu',
+        question: "Bowl of Fruit, Violin and Bottle is the work of which artist?",
+        choice1: "Francisco Goya",
+        choice2: "Diego Velázquez",
+        choice3: "Pablo Picasso",
+        choice4: "Josefa Bayeu",
         answer: 3,
     }
 ]
 
-const SCORE_POINTS = 20
-const MAX_QUESTIONS = 5
+const SCORE_POINTS = 100
+const MAX_QUESTIONS = 4
 
 startGame = () => {
     questionCounter = 0
@@ -75,9 +76,10 @@ getNewQuestion = () => {
 
     questionCounter++
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
-
-    const questionIndex = Math.floor(Math.random() * availableQuestions.length)
-    currentQuestion = availableQuestions[questionIndex]
+    progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
+    
+    const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
+    currentQuestion = availableQuestions[questionsIndex]
     question.innerText = currentQuestion.question
 
     choices.forEach(choice => {
@@ -85,7 +87,7 @@ getNewQuestion = () => {
         choice.innerText = currentQuestion['choice' + number]
     })
 
-    availableQuestions.splice(questionIndex, 1)
+    availableQuestions.splice(questionsIndex, 1)
 
     acceptingAnswers = true
 }
@@ -109,6 +111,14 @@ choices.forEach(choice => {
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply)
             getNewQuestion()
+
         }, 1000)
     })
 })
+
+incrementScore = num => {
+    score +=num
+    scoreText.innerText = score
+}
+
+startGame()
