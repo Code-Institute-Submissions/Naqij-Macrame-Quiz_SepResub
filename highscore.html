@@ -11,7 +11,6 @@
     <script src="https://kit.fontawesome.com/0ea4bc6e41.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/highscore.css">
 
     <title>Art Quiz</title>
 </head>
@@ -22,9 +21,14 @@
         </div>
         <h1 class="heading">Art Quiz!</h1>
     </nav> 
-
-
-
+    <div class="container">
+        <div id="highScores" class="flex-center flex-column">
+            <h4 id="finalScore">Scoreboard</h4>
+            <ul id="highScoresList"></ul>
+            <a href="index.html" class="home-btn">Go Home</a>
+        </div>
+    </div>
+    
     <footer>
 
     <!-- Social network links -->
@@ -48,6 +52,6 @@
             </li>
         </ul>
     </footer>
-    <script src="/highscore.js"></script>
+    <script src="highscore.js"></script>
 </body>
 </html>

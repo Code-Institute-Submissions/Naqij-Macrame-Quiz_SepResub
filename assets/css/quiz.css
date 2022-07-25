@@ -5,8 +5,7 @@
     width: 50rem;
     background-color: rgb(126, 126, 126);
     color: rgb(255, 255, 255);
-    margin: auto;
-    margin-top: 3rem;
+    margin: auto;    
     margin-bottom: 5rem;
     font-size: 4rem;
     padding: 2rem;
@@ -16,10 +15,12 @@
 .choice-container {
     display: flex;
     justify-items: center;
+    align-items: center;
     margin: auto;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     padding: 1rem;
     width: 50rem;
+    height: 5rem;
     border-radius: 0.4rem;
     background-color: #e6e6e6;
     font-size: 3rem;
@@ -52,21 +53,25 @@
     background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41, 232, 111) 100%);
 }
 
-.correct {
+.incorrect {
     background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
 }
 
 .hud-prefix {
+    display: flex;
+    justify-content: flex-end;
     text-align: center;
     font-size: 2rem;
 }
 
 .hud-main-text {
+    display: flex;
+    justify-content: flex-end;
     text-align: center;
 }
 
 @media screen and (max-width: 750px) {
-    .choice-container {
+    .container {
         min-width: 40rem;
     }
 }
