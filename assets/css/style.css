@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    font-family: Beau Rivage, sans-serif;
+    font-family: Ibarra Real Nova, sans-serif;
 }
 
 #logo > img{
@@ -150,6 +150,12 @@ nav {
     max-width: 30rem;
 }
 
+#end-text {
+    font-size: 2.4rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
 input {
     margin: 2rem;
     padding: 1.5rem;
@@ -164,9 +170,49 @@ input::placeholder {
 
 #username {
     margin-bottom: 3rem;
-    width: 100%;
     outline: none;
+    width: 30rem;
 }
+
+#saveScoreBtn {
+    font-size: 3rem;
+    padding: 2rem 0;
+    width: 30rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    border-radius: 0.5rem;
+}
+
+#saveScoreBtn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 0, 0, 0.7);
+    transition: transform 200ms;
+    transform: scale(1.05);
+}
+
+
+.play-again-btn {
+    font-size: 4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    border-radius: 0.5rem;
+}
+
+.play-again-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 0, 0, 0.7);
+    transition: transform 200ms;
+    transform: scale(1.05);
+}
+
 
 /* Footer */
 
