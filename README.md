@@ -24,10 +24,9 @@ I have added some history questions and some questions from the present times.
         * [Existing Features](#existing-features)
             * [Navigation Bar](#navigation-bar)
             * [Welcome Page](#welcome-page)
-            * [About Page](#about-page)
-            * [Contact Page](#contact-section)
-            * [Footer](#footer)
-        * [Features to be Added](#features-to-be-added)
+            * [Quiz Page](#Quiz-page)
+            * [Save Result](#Save-Result)
+            * [Scoreboard Result](#Scoreboard)
     * [Languages and Websites used](#languages-and-websites-used)
         * [Languages that I used](#languages-that-i-used)
         * [Tools](#tools)
@@ -76,5 +75,59 @@ In order to make the quiz more appealing, I have used the
 I believe these two font sits really well together.
 
 
+### Icons
+I have used icons for my website from the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). These icons will only be used where there is no explination is needed and are really common among the users like social media links.
+
+# Wireframes
+I have used Photoshop to develop wireframes for my website. I initially created the desktop version first and then scalled it down for tablet and smart phones. Because a requirement is to give little but quality information to the user to make them want to engage with the quiz.
+
+**Wireframe Home Page**
+
+![Wireframe Home](assets/images/wireframes/main-quiz.jpg)
+
+**Wireframe Quiz Page**
+
+![Wireframe Quiz](assets/images/wireframes/scoreboard.jpg)
+
+**Wireframe Scoreboard Page**
+
+![Wireframe Scoreboard](assets/images/wireframes/finish.jpg)
 
 
+   ### Welcome Page
+
+   *Desktop*
+
++ The welcome page includes play button and High score button.
+
+    ![Welcome Page](assets/images/webpage/welcome-page.PNG)
+
+### Quiz page
+
++ The Quiz page includes questions and answer choices.
+It also includes useful information such as number of questions and score.
+
+    ![Quiz Page](assets/images/webpage/quiz.PNG)
+
+
+### Save Result
+
++ This page includes the total score that 1 scores.
+It also lets you save your score to so you can compete with friends and family.
+There also usefull buttons to navigate such as "Play Again" and "Home" button.
+
+    ![Save Result](assets/images/webpage/result-save.PNG)
+
+ ### Scoreboard
+
++ The Scoreboard page gives the score history and "Home" for user to go back to the main page.
+
+    ![Scoreboard](assets/images/webpage/scoreboard.PNG)
+
+
+# Languages and Websites used
+
+## Languages that I used
+* [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
+* [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript "Javascript")

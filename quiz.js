@@ -20,8 +20,7 @@ let questions = [
     },
 
     {
-        question: "What type of craft is M
-        acramé?",
+        question: "What type of craft is Macramé?",
         choice1: "Paper craft",
         choice2: "Stone craft",
         choice3: "Fiber art",
