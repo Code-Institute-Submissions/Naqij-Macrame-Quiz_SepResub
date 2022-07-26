@@ -11,48 +11,49 @@ let availableQuestions = []
 
 let questions = [
     {
-        question: "Which Spanish artist painted the series known as Fantasy and Invention in the 18th century?",
-        choice1: "Francisco Goya",
-        choice2: "Diego Velázquez",
-        choice3: "Pablo Picasso",
-        choice4: "Josefa Bayeu",
-        answer: 1,
-    },
-
-    {
-        question: "Which artist said Everything you can imagine is real?",
-        choice1: "Francisco Goya",
-        choice2: "Diego Velázquez",
-        choice3: "Pablo Picasso",
-        choice4: "Josefa Bayeu",
-        answer: 3,
-    },
-
-    {
-        question: "Surrealist painter Rene Magritte was born in which country?",
-        choice1: "Belgium",
-        choice2: "England",
-        choice3: "France",
-        choice4: "Ireland",
-        answer: 1,
-    },
-
-    {
-        question: "The Lady Lever Art Gallery is in which English city?",
-        choice1: "London",
-        choice2: "Liverpool",
-        choice3: "Manchester",
-        choice4: "Birmingham",
+        question: "What area did Macramé originated from?",
+        choice1: "Africa",
+        choice2: "Arab",
+        choice3: "Asia",
+        choice4: "America",
         answer: 2,
     },
 
     {
-        question: "Bowl of Fruit, Violin and Bottle is the work of which artist?",
-        choice1: "Francisco Goya",
-        choice2: "Diego Velázquez",
-        choice3: "Pablo Picasso",
-        choice4: "Josefa Bayeu",
+        question: "What type of craft is M
+        acramé?",
+        choice1: "Paper craft",
+        choice2: "Stone craft",
+        choice3: "Fiber art",
+        choice4: "All the above",
         answer: 3,
+    },
+
+    {
+        question: "Macramé can be used to make?",
+        choice1: "Plant hangers",
+        choice2: "Jewellery",
+        choice3: "Clothing",
+        choice4: "All the above",
+        answer: 4,
+    },
+
+    {
+        question: "Which of the following is NOT a type of Macramé knot?",
+        choice1: "Larks head",
+        choice2: "Spiral Knot",
+        choice3: "Cordinal beak knot",
+        choice4: "Clove hitch",
+        answer: 3,
+    },
+
+    {
+        question: "According to the wonder, why did sailors practice Macramé on their ships?",
+        choice1: "To help pass the time",
+        choice2: "To mend their torn cloths",
+        choice3: "To repair holes in the ships sail",
+        choice4: "To create containers for their cargo",
+        answer: 1,
     }
 ]
 
