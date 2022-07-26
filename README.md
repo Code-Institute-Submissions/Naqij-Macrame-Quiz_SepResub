@@ -13,7 +13,7 @@ I have added some history questions and some questions from the present times.
 * [UX](#ux "UX")
     * [User Goals](#user-goals)
     * [User Inputs](#user-inputs)
-    * [Owner Goals](#owners-goals)
+    * [Owner Goals](#owner-goals)
     * [Requirements](#requirements)
     * [Expectations](#expectations)
     * [Design Choices](#design-choices)
@@ -32,7 +32,6 @@ I have added some history questions and some questions from the present times.
         * [Tools](#tools)
     * [Testing](#testing)
         * [Unfixed Codes](#unfixed-codes)
-    * [Formation](#formation)
     * [Credits](#credits)
 
 # UX
@@ -131,3 +130,58 @@ There also usefull buttons to navigate such as "Play Again" and "Home" button.
 * [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
 * [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
 * [Javascript](https://en.wikipedia.org/wiki/JavaScript "Javascript")
+
+## Tools
+* [Gitpod](https://www.gitpod.io/ "Gitpod")
+* [Photoshop](https://en.wikipedia.org/wiki/Adobe_Photoshop "Photoshop")
+* [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
+
+# Testing
+
+I feel that the site has hit the goals are required by everyone. The site responds nicely to all different screen sizes, the question section looks clean and responsive. It allows the user to save the their score The content is simple and to the point and the site is not overcrowded.
+\
+&nbsp;
+
+# formation
+
+Following writing the code then commiting and pushing to GitHub, this project was formed using GitHub by the following steps.
+
++ Navigate to the repository on github and click 'Settings'.
++ Then select 'Pages' on the side navigation.
++ Select the 'None' dropdown, and then click 'master'.
++ Click on the 'Save' button.
++ Now the website is live on [https://naqij.github.io/Macrame-Quiz/]
++ If any changes are required or made they can be done by committing and push to GitHub and the changes will be updated.
+
+# Credits
+
+I would like to thanks.
+* [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
+
+And **Kenan Wright**
+
+For code insperation, help, advice and encouragment.
+
+&nbsp;
+
+For content and style insperation,
+
+I used my wife's (Daima Zainab) thesis on Macramé and Celtic art.
+* [Instagram page of Daima Zainab](http://instagram.com/daimaaaz_?igshid=YmMyMTA2M2Y= "Instagram page of Daima Zainab")
+
+
+&nbsp;
+
+For code insperation I have also looked into my first project "The Knots" to see which way the code reacted if changed into certein way and then applied the same on my quiz project.
+
+I have also used [https://www.w3schools.com/] for code insperation and testing the code before using on my website.
+
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
