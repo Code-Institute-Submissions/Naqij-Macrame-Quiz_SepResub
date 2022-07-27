@@ -245,3 +245,10 @@ footer {
 	transition: .5s transform;
 }
 
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}

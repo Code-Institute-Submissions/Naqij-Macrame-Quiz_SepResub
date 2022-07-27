@@ -1,0 +1,54 @@
+{
+    "questions": [
+        {
+            "question": "What area did Macramé originated from?",
+            "choice": [
+                "Africa",
+                "Arab",
+                "Asia",
+                "America"
+            ],
+            "answer": "Arab"
+        },
+        {
+            "question": "What type of craft is Macramé?",
+            "choice": [
+                "Paper craft",
+                "Stone craft",
+                "Fiber art",
+                "All the above"
+            ],
+            "answer": "Fiber art"
+        },
+        {
+            "question": "Macramé can be used to make?",
+            "choice": [
+                "Plant hangers",
+                "Jewellery",
+                "Clothing",
+                "All the above"
+            ],
+            "answer": "All the above"
+        },
+        {
+            "question": "Which of the following is NOT a type of Macramé knot?",
+            "choice": [
+                "Larks head",
+                "Spiral Knot",
+                "Cordinal beak knot",
+                "Clove hitch"
+            ],
+            "answer": "Cordinal beak knot"
+        },
+        {
+            "question": "According to the wonder, why did sailors practice Macramé on their ships?",
+            "choice": [
+                "To help pass the time",
+                "To mend their torn cloths",
+                "To repair holes in the ships sail",
+                "To create containers for their cargo"
+            ],
+            "answer": "To help pass the time"
+        }
+    ]
+}
