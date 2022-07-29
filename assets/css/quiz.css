@@ -2,7 +2,7 @@
 #question {
     display: flex;
     justify-items: center;
-    width: 50rem;
+    width: 80%;
     background-color: rgb(126, 126, 126);
     color: rgb(255, 255, 255);
     margin: auto;    
@@ -19,7 +19,7 @@
     margin: auto;
     margin-bottom: 1rem;
     padding: 1rem;
-    width: 50rem;
+    width: 80%;
     height: 5rem;
     border-radius: 0.4rem;
     background-color: #e6e6e6;
@@ -36,7 +36,7 @@
 }
 
 .choice-container:active {
-    transform: scale(0.9);
+    transform: scale(1);
 }
 
 .choice-prefix {
@@ -50,11 +50,16 @@
 }
 
 .correct {
-    background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41, 232, 111) 100%);
+    background: rgb(0, 255, 0);
 }
 
 .incorrect {
-    background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
+    background: rgb(255, 0, 0);
+}
+
+#hud {
+    width: 80%;
+    margin: auto;
 }
 
 .hud-prefix {
@@ -70,8 +75,8 @@
     text-align: center;
 }
 
-@media screen and (max-width: 750px) {
-    .container {
-        min-width: 40rem;
-    }
+@media screen and (max-width: 550px) {
+    
+
+    
 }

@@ -6,13 +6,6 @@ const gameRef = document.querySelector('#game');
 const homeRef = document.querySelector('#home');
 const playBtnRef = document.querySelector('#play-btn');
 
-const username = document.querySelector('#username');
-const saveScoreBtn = document.querySelector('#saveScoreBtn');
-const finalScore = document.querySelector('#finalScore');
-const mostRecentScore = localStorage.getItem('mostRecentScore');
-
-const highScoresList = document.querySelector('#highScoresList');
-
 
 let currentQuestion = {}
 let acceptingAnswers = true
@@ -86,8 +79,14 @@ incrementScore = num => {
 playBtnRef.addEventListener("click", () => {
     gameRef.classList.remove("hidden")
     homeRef.classList.add("hidden")
+    playBtnRef.classList.add("hidden")
     startGame()
 })
+
+const username = document.querySelector('#username');
+const saveScoreBtn = document.querySelector('#saveScoreBtn');
+const finalScore = document.querySelector('#finalScore');
+const mostRecentScore = localStorage.getItem('mostRecentScore');
 
 const highScores = JSON.parse(localStorage.getItem('highScores')) || []
 
@@ -116,8 +115,18 @@ saveHighScore = e => {
     highScores.splice(5)
 
     localStorage.setItem('highScores', JSON.stringify(highScores))
-    window.location.assign('index.html')    
+    window.location.assign('index.html')   
 }
+
+playBtnRef.addEventListener("click", () => {
+    gameRef.classList.remove("hidden")
+    homeRef.classList.add("hidden")
+    playBtnRef.classList.add("hidden")
+    startGame()
+})
+
+
+const highScoresList = document.querySelector('#highScoresList');
 
 highScoresList.innerHTML =
 highScores.map(score => {

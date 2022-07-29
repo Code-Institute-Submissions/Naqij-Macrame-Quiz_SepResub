@@ -28,21 +28,23 @@ nav {
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
+    justify-content: space-between;    
     border-bottom: #000 3px solid;    
-    width: 100%;    
-    justify-content: space-between;   
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999999999999;
 }
 
 .heading {
         font-size: 5rem;
         font-family: Beau Rivage, sans-serif;
-        padding: 5rem;
+        padding: 3rem;
     }
 
 /* game play button*/
 
-.container {
-    width: 100vw;
+.container {    
     height: 100%;
     display: flex;
     justify-content: center;
@@ -83,7 +85,11 @@ nav {
     transform: scale(1.05);
 }
 
-#highscore-btn {
+.play-btn:active {
+    transform: scale(1);
+}
+
+.btn {
     font-size: 4rem;
     padding: 2rem 0;
     width: 30rem;
@@ -95,11 +101,15 @@ nav {
     border-radius: 0.5rem;
 }
 
-#highscore-btn:hover {
+.btn:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 255, 0.7);
     transition: transform 200ms;
     transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(1);
 }
 
 .home-btn {
@@ -119,6 +129,10 @@ nav {
     box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 255, 0.7);
     transition: transform 200ms;
     transform: scale(1.05);
+}
+
+.home-btn:active {
+    transform: scale(1);
 }
 
 /* Finish - form page*/
@@ -195,6 +209,10 @@ input::placeholder {
     transform: scale(1.05);
 }
 
+.play-again-btn:active {
+    transform: scale(1);
+}
+
 /* Highscore page*/
 
 #highScoresList {
@@ -245,10 +263,32 @@ footer {
 	transition: .5s transform;
 }
 
+/*
 .hidden {
     display: none;
 }
 
 .show {
     display: block;
+}
+*/
+
+@media screen and (max-width: 550px) {
+
+    nav {
+        height: 5rem; 
+        max-width: 550px;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }  
+    
+    #logo > img{
+        width: 3rem;
+    }
+
+    footer {
+        margin-top: 150px;    
+    }
 }

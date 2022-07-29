@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="art">
-    <meta name="keywords" content="History art sketching drawing painting designs">
+    <meta name="description" content="Macrame Quiz">
+    <meta name="keywords" content="History, art, sketching, drawing, painting, designs, Macrame, Quiz.">
 
     <!-- Font awesome link -->
     <script src="https://kit.fontawesome.com/0ea4bc6e41.js" crossorigin="anonymous"></script>
@@ -29,8 +29,8 @@
     <section id="home" class="show">
         <div class="container">
             <div id="home" class="flex-column flex-center">
-                <a href="quiz.html" class="play-btn">Lets Play!</a>
-                <a href="highscore.html" class="btn" id="highscore-btn">High Scores</a>
+                <a href="#game" id="play-btn" class="play-btn">Lets Play!</a>
+                <a href="#highscore" id="highscore-btn" class="btn">High Scores</a>
             </div>
         </div>
     </section>
@@ -84,8 +84,8 @@
                     
                 </form>
                 <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Save Score</button>
-                <a href="/quiz.html" class="play-again-btn btn">Play Again</a>
-                <a href="/index.html" class="home-btn btn">Go Home</a>
+                <a href="#game" id="game" class="play-again-btn btn">Play Again</a>
+                <a href="#home" id="home" class="home-btn btn">Go Home</a>
             </div>
         </div>
     </section>
@@ -97,9 +97,10 @@
             <div id="highScores" class="flex-center flex-column">
                 <h4 id="finalScore">Scoreboard</h4>
                 <ul id="highScoresList"></ul>
-                <a href="index.html" class="home-btn">Go Home</a>
+                <a href="#home" id="home" class="home-btn">Go Home</a>
             </div>
         </div>
+        
     <footer>
 
     <!-- Social network links -->
@@ -123,6 +124,7 @@
             </li>
         </ul>
     </footer>
-
+    <script src="quiz.js"></script>
+    
 </body>
 </html>
