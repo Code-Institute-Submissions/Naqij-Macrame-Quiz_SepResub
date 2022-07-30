@@ -30,84 +30,16 @@
     
     <!--Home Page-->
 
-    <section id="home" class="show">
         <div class="container">
             <div id="home" class="flex-column flex-center">
-                <a href="#game" id="play-btn" class="play-btn">Lets Play!</a>
-                <a href="#highscore" id="highscore-btn" class="btn">High Scores</a>
+                <a href="quiz.html" id="play-btn" class="play-btn">Lets Play!</a>
+                <a href="highscore.html" id="highscore-btn" class="btn">High Scores</a>
             </div>
         </div>
-    </section>
-
-    <!--Game section-->
-
-    <section id="game" class="hidden">
-        <div class="container">
-            <div id="game" class="justify-center flex-column">
-                <div id="hud">
-                    <div class="hud-item">
-                        <p id="progressText" class="hud-prefix">Question</p>
-                    </div>
-                    <div class="hud-item">
-                        <p class="hud-prefix">
-                            Your Score
-                        </p>
-                        <h1 class="hud-main-text" id="score">0</h1>
-                    </div>
-                </div>
-                <h1 id="question">What is the answer to this question</h1>
-                <div class="choice-container">
-                    <p class="choice-prefix">A</p>
-                    <p class="choice-text" data-number="1">Choice 1</p>
-                </div>
-                <div class="choice-container">
-                    <p class="choice-prefix">B</p>
-                    <p class="choice-text" data-number="2">Choice 2</p>
-                </div>
-                <div class="choice-container">
-                    <p class="choice-prefix">C</p>
-                    <p class="choice-text" data-number="3">Choice 3</p>
-                </div>
-                <div class="choice-container">
-                    <p class="choice-prefix">D</p>
-                    <p class="choice-text" data-number="4">Choice 4</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Finish page section-->
-
-    <section id="finish" class="hidden">
-        <div class="container">
-            <div id="end" class="flex-center flex-column">
-                <h1 id="finalScore">0</h1>
-                <form class="end-form-container">
-                    <h2 id="end-text">Enter name below to save your score!</h2>
-                    <input type="text" name="name" id="username" placeholder="Enter your name">
-                    
-                </form>
-                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Save Score</button>
-                <a href="#game" id="game" class="play-again-btn btn">Play Again</a>
-                <a href="#home" id="home" class="home-btn btn">Go Home</a>
-            </div>
-        </div>
-    </section>
-
-    <!--highscore section-->
-
-    <section id="highscore" class="hidden">
-        <div class="container">
-            <div id="highScores" class="flex-center flex-column">
-                <h4 id="finalScore">Scoreboard</h4>
-                <ul id="highScoresList"></ul>
-                <a href="#home" id="home" class="home-btn">Go Home</a>
-            </div>
-        </div>
-        
-    <footer>
 
     <!-- Social network links -->
+
+    <footer>
 
         <ul class="social-networks">
             <li>
@@ -128,7 +60,10 @@
             </li>
         </ul>
     </footer>
-    <script src="quiz.js"></script>
+
+    <script src="assets/js/quiz.js"></script>
+    <script src="assets/js/finish.js"></script>
+    <script src="assets/js/highscore.js"></script>
     
 </body>
 </html>

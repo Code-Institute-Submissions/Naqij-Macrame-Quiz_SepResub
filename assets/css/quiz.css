@@ -63,9 +63,11 @@
 #hud {
     width: 80%;
     margin: auto;
+   margin-top: 5rem;
 }
 
 .hud-prefix {
+    
     display: flex;
     justify-content: flex-end;
     text-align: center;

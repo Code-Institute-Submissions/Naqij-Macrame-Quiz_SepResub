@@ -287,15 +287,7 @@ footer {
 	transition: .5s transform;
 }
 
-/*
-.hidden {
-    display: none;
-}
-
-.show {
-    display: block;
-}
-*/
+/*Screen size smaller then 550px*/
 
 @media screen and (max-width: 550px) {
 

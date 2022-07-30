@@ -23,31 +23,28 @@
 
         <h1 class="heading">Macramé Quiz!</h1>
     </nav>
-    <section id="game" class="hidden">
+
+    <section class="outer-image">
+        <div class="cover-image"></div>
+    </section>
+    
         <div class="container">
             <div id="game" class="justify-center flex-column">
                 <div id="hud">
                     <div class="hud-item">
-                        <p id="progressText" class="hud-prefix">
-                            Question
-                        </p>
-                        <div id="progressBar">
-                            <div id="progressBarFull"></div>
-                        </div>
+                        <p id="progressText" class="hud-prefix">Question</p>
                     </div>
                     <div class="hud-item">
                         <p class="hud-prefix">
-                            Score
+                            Your Score
                         </p>
-                        <h1 class="hud-main-text" id="score">
-                            0
-                        </h1>
+                        <h1 class="hud-main-text" id="score">0</h1>
                     </div>
                 </div>
                 <h1 id="question">What is the answer to this question</h1>
                 <div class="choice-container">
                     <p class="choice-prefix">A</p>
-                    <p class="choice-text" data-number="1">Choice</p>
+                    <p class="choice-text" data-number="1">Choice 1</p>
                 </div>
                 <div class="choice-container">
                     <p class="choice-prefix">B</p>
@@ -63,11 +60,10 @@
                 </div>
             </div>
         </div>
-    </section>
 
+        <!-- Social network links -->
+        
     <footer>
-
-    <!-- Social network links -->
 
         <ul class="social-networks">
             <li>
@@ -88,7 +84,10 @@
             </li>
         </ul>
     </footer>
-    <script src="quiz.js"></script>
+
+    <script src="assets/js/quiz.js"></script>
+    <script src="assets/js/finish.js"></script>
+    <script src="assets/js/highscore.js"></script>
     
 </body>
 </html>
