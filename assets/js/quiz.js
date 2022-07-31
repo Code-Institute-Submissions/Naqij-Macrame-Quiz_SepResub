@@ -48,10 +48,10 @@ let questions = [
 
     {
         question: "According to the wonder, why did sailors practice Macramé on their ships?",
-        choice1: "To help pass the time",
-        choice2: "To mend their torn cloths",
-        choice3: "To repair holes in the ships sail",
-        choice4: "To create containers for their cargo",
+        choice1: "To pass time",
+        choice2: "Mend torn cloths",
+        choice3: "To repair the sail",
+        choice4: "To create containers",
         answer: 1,
     }
 ]
@@ -120,3 +120,4 @@ incrementScore = num => {
 }
 
 startGame()
+

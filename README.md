@@ -30,7 +30,7 @@ I have added some history questions and some questions from the present times.
         * [Languages that I used](#languages-that-i-used)
         * [Tools](#tools)
     * [Testing](#testing)
-        * [Unfixed Codes](#unfixed-codes)
+    
     * [Credits](#credits)
 
 # UX
