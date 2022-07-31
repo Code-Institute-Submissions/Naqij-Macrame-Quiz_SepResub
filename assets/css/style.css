@@ -27,9 +27,8 @@ body {
 .cover-image {
     height: 800px;
     width: 100%;
-    background: url('/assets/images/background-quiz.jpg') no-repeat center center;
+    background: url('../images/background-quiz.jpg') no-repeat center center;
     filter:opacity(40%);
-
 }
 
 #logo > img{
