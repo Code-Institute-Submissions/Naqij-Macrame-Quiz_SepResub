@@ -7,7 +7,7 @@ Welcome to Macramé Quiz.
 This quiz is created to test your knowledge about Macramé.
 I have added some history questions and some questions from the present times.
 
-![Responsive Displays](image)
+![Responsive Displays](assets/images/webpage/responsiveness.PNG)
 
 # Table of Contents
 * [UX](#ux "UX")
@@ -22,7 +22,6 @@ I have added some history questions and some questions from the present times.
     * [Wireframes](#wireframes)
     * [Features](#features)
         * [Existing Features](#existing-features)
-            * [Navigation Bar](#navigation-bar)
             * [Welcome Page](#welcome-page)
             * [Quiz Page](#Quiz-page)
             * [Save Result](#Save-Result)
@@ -92,6 +91,10 @@ I have used Photoshop to develop wireframes for my website. I initially created 
 
 ![Wireframe Scoreboard](assets/images/wireframes/finish.jpg)
 
+# Features
+
+## Existing Features
+
 
    ### Welcome Page
 
@@ -145,7 +148,7 @@ I feel that the site has hit the goals are required by everyone. The site respon
 \
 &nbsp;
 
-# formation
+# Formation
 
 Following writing the code then commiting and pushing to GitHub, this project was formed using GitHub by the following steps.
 
