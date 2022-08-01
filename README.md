@@ -26,6 +26,7 @@ I have added some history questions and some questions from the present times.
             * [Quiz Page](#Quiz-page)
             * [Save Result](#Save-Result)
             * [Scoreboard Result](#Scoreboard)
+        * [Unfixed Bugs](#unfixed-bugs)
     * [Languages and Websites used](#languages-and-websites-used)
         * [Languages that I used](#languages-that-i-used)
         * [Tools](#tools)
@@ -76,6 +77,12 @@ I believe these two font sits really well together.
 ### Icons
 I have used icons for my website from the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). These icons will only be used where there is no explination is needed and are really common among the users like social media links.
 
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
 # Wireframes
 I have used Photoshop to develop wireframes for my website. I initially created the desktop version first and then scalled it down for tablet and smart phones. Because a requirement is to give little but quality information to the user to make them want to engage with the quiz.
 
@@ -90,6 +97,12 @@ I have used Photoshop to develop wireframes for my website. I initially created 
 **Wireframe Scoreboard Page**
 
 ![Wireframe Scoreboard](assets/images/wireframes/finish.jpg)
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
 # Features
 
@@ -126,6 +139,15 @@ There also usefull buttons to navigate such as "Play Again" and "Home" button.
 
     ![Scoreboard](assets/images/webpage/scoreboard.PNG)
 
+    \
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+## Unfixed Bugs
+
+I wanted to add a function where if the selected answer is incorret the correct andwer will be triggered as well and highlight "green" but after trying many different combination of codes I could fix this.
 
 # Languages and Websites used
 
@@ -178,7 +200,10 @@ I used my wife's (Daima Zainab) thesis on Macramé and Celtic art.
 
 &nbsp;
 
-For code insperation I have also looked into my first project "The Knots" to see which way the code reacted if changed into certein way and then applied the same on my quiz project.
+For code insperation I have looked into my first project "The Knots" to see which way the code reacted if changed into certein way and then applied the same on my second project which is Macramé Quiz project.
+I also wanted to keep the same theme as my first project so in future I could link the quiz to my website.
+
+For code inspirations I went through my notes that I took throughout the course and also I checked out few Youtube videos to understand them better.
 
 I have also used [https://www.w3schools.com/] for code insperation and testing the code before using on my website.
 
