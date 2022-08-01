@@ -318,3 +318,39 @@ footer {
         margin-top: 150px;    
     }
 }
+
+/*Screen size smaller then 400px*/
+
+@media screen and (max-width: 400px) {
+
+    .play-btn {
+        font-size: 2.5rem;
+        padding: 1.5rem 0;
+        width: 20rem;
+    }
+
+    .btn {
+        font-size: 2.5rem;
+        padding: 1.5rem 0;
+        width: 20rem;
+    }
+
+    .home-btn {
+        font-size: 2.5rem;
+        padding: 1.5rem 0;
+        width: 20rem;
+    }
+
+    #saveScoreBtn {
+        font-size: 2rem;
+        padding: 1.5rem 0;
+        width: 20rem;
+    }
+
+    .play-again-btn {
+        font-size: 2rem;
+        padding: 1.5rem 0;
+        width: 20rem;
+    }
+}
+
