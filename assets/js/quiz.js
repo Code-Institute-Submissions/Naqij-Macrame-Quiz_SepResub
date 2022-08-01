@@ -119,7 +119,6 @@ incrementScore = num => {
     scoreText.innerText = score
 }
 
-console.log("Welcome to Macramé Quiz")
-
 startGame()
 
+console.log("Welcome to Macramé Quiz")

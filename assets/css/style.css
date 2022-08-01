@@ -323,6 +323,14 @@ footer {
 
 @media screen and (max-width: 400px) {
 
+    #username {
+        width: 80%;
+    }
+
+    input {
+        margin: 1rem;
+    }
+
     .play-btn {
         font-size: 2.5rem;
         padding: 1.5rem 0;
