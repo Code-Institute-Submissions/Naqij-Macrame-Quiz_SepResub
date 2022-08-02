@@ -163,6 +163,7 @@ I wanted to add a function where if the selected answer is incorret the correct 
 * [Photoshop](https://en.wikipedia.org/wiki/Adobe_Photoshop "Photoshop")
 * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+* [JShint Validation Service](https://jshint.com/ "JShint")
 * [Font Awesome library](https://fontawesome.com/ "Font Awesome")
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
 
