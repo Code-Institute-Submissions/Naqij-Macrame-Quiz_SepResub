@@ -179,9 +179,7 @@ I feel that the site has hit the goals are required by everyone. The site respon
 
 I have validated my project with the [W3C Validator](https://www.w3.org/ "HTML and CSS") and I used JShind [JShind](https://jshint.com/ "HTML and CSS") to validate my Javascript codes.
 
-I got few warnings for HTML but I think it works for me better this way so I left them the way they are, there were no errors.
-
-I've also got few warnings for my JavaScript files but most of them were for "Missing semicolon" so I also left them the way they were.
+I've got few warnings for my JavaScript files but most of them were for "Missing semicolon" so I left them the way they were.
 
 Below are the validation images.
 
