@@ -229,7 +229,7 @@ I used my wife's (Daima Zainab) thesis on Macramé and Celtic art.
 For code insperation I have looked into my first project "The Knots" to see which way the code reacted if changed into certein way and then applied the same on my second project which is Macramé Quiz project.
 I also wanted to keep the same theme as my first project so in future I could link the quiz to my website.
 
-For code inspirations I went through my notes that I took throughout the course and also I checked out few Youtube videos to understand them better.
+For code inspirations I went through my notes that I took throughout the course and also I checked out few Youtube videos to understand them better and use them correctly.
 
 I have also used [https://www.w3schools.com/] for code insperation and testing the code before using on my website.
 
