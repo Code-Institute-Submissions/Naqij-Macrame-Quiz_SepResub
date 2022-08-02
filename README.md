@@ -32,7 +32,8 @@ I have added some history questions and some questions from the present times.
         * [Tools](#tools)
     * [Testing](#testing)
         * [Responsiveness](#responsiveness)
-        * [Validation](#Validation)
+        * [Validation](#validation)
+        * [Lighthouse](#lighthouse)
     
     * [Credits](#credits)
 
@@ -186,6 +187,12 @@ Below are the validation images.
 ![HTML snd CSS](assets/images/validation/HTML-CSS-Validate.jpg)
 
 ![JavaScript](assets/images/validation/JS-VALIDATION.jpg)
+
+
+## Lighthouse
+
+![Lighthouse](assets/images/validation/lighthouse.PNG)
+
 
 \
 &nbsp;
