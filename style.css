@@ -67,3 +67,76 @@ nav {
     max-width: 50rem;
     max-height: 50rem;
 }
+
+.quiz-box h2{
+    display: flex;
+    justify-items: center;
+    background-color: rgb(126, 126, 126);
+    color: rgb(255, 255, 255); 
+    font-size: 3rem;
+    padding: 2rem;
+    border-radius: 4px;
+    filter: opacity(100%);
+}
+
+.quiz-box .option{
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    padding: 1.2rem 1.5rem;
+    border-radius: 0.4rem;
+    background-color: #e6e6e6;
+    transition: all 0.3s;
+    cursor: pointer;
+    position: relative; 
+    display: flex;
+    justify-items: center;
+    align-items: center;   
+}
+
+.quiz-bottom{
+    border-top: 2px dashed #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10rem;
+}
+
+.next-btn{
+    font-size: 2rem;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+/* Footer */
+
+footer {
+    border-top: 3px solid;
+    width: 100%;
+    text-align: center;
+    position: absolute;  
+    background-color: #fff;
+}
+
+.social-networks {
+    text-align: center;
+    position: relative;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 3rem;
+    margin: 3rem 0 3rem;
+    padding-inline: 5%;
+    color: #000;
+}
+
+.social-networks i:hover {
+	transform: scale(1.2);
+	transition: .5s transform;
+}
