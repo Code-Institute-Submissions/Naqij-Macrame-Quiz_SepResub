@@ -258,3 +258,103 @@ footer {
 	transform: scale(1.2);
 	transition: .5s transform;
 }
+
+/*Screen size smaller then 550px*/
+
+@media screen and (max-width: 550px) {
+    nav {
+        height: 5rem; 
+        max-width: 55rem;
+    }
+
+    .heading {
+        font-size: 3rem;
+        padding: 1.5rem;
+    }  
+    
+    #logo > img{
+        width: 3rem;
+    }
+
+    .start_quiz{
+        width: 20rem;
+        font-size: 3rem;
+        margin: 16rem auto 17rem; 
+    }
+
+    footer {
+        margin-top: 15rem;    
+    }
+}
+
+
+/*Screen size smaller then 380px*/
+
+@media screen and (max-width: 380px) {
+
+    .start_quiz{
+        margin: 16rem auto 17rem; 
+    }
+
+    .quiz-box {
+        margin: 5rem auto 3rem;
+        padding: 0 2rem 0;
+        max-width: 30rem;
+        max-height: 40rem;
+    }
+
+    .quiz-box h2 {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    .quiz-box .option {
+        font-size: 1.8rem;
+        margin: 0.5rem 0;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .bottom-left {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    .next-btn {
+        font-size: 1rem;
+        padding: 0.7rem;
+    }
+
+
+    .social-networks i {
+        font-size: 2rem;
+        margin: 1.5rem 0 1.5rem;
+        padding-inline: 5%;
+    }
+
+    .result-box {
+        max-width: 25rem;
+    }
+
+    .result-box h2 {
+        font-size: 3rem;
+        padding: 1rem 0;
+    }
+
+    .result-box .result {
+        padding: 2rem;
+    }
+
+    .result-box h3 {
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
+    }
+
+    .end-btn {
+        padding-bottom: 2rem;
+    }
+
+    .end-btn .play-again,.end-btn .exit{
+        padding: 0.5rem 1rem;
+        font-size: 2rem;
+    }
+}
