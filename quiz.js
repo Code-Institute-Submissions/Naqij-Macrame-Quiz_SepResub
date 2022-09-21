@@ -1,3 +1,5 @@
+alert("Please rotate 90 degrees for best experience on a tablet");
+
 const start_btn = document.querySelector(".start_quiz");
 const quiz_box = document.querySelector(".quiz-box");
 const question_input = quiz_box.querySelector(".question_input");
