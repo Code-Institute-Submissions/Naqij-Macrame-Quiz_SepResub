@@ -21,3 +21,49 @@ body {
     overflow: hidden;
     float: left;
 }
+
+.heading {
+    font-size: 5rem;
+    font-family: Beau Rivage, sans-serif;
+    padding: 3rem;
+}
+
+nav {
+    height: 8rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    border-bottom: #000 3px solid;    
+    width: 100%;
+    top: 0;
+    z-index: 999999999999;
+    position: relative;
+}
+
+.start_quiz{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 1rem 3rem;
+    color: #000;
+    background: #fff;
+    border: #000 1px solid;
+    border-radius: 1rem;
+    font-size: 4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin: 24rem auto 25rem; 
+}
+
+.quiz-box{
+    margin: 5rem auto 5rem;
+    border: none;
+    padding: 0 5rem 0;
+    width: 100%;
+    max-width: 50rem;
+    max-height: 50rem;
+}
