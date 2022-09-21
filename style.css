@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Ibarra+Real+Nova:wght@400;500&family=Lato:wght@300&display=swap');
+
+html {
+    font-size: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Ibarra Real Nova, sans-serif;
+}
+
+#logo > img{
+    width: 5rem;
+    height: auto;
+    margin-left: 3rem;
+    overflow: hidden;
+    float: left;
+}

@@ -10,32 +10,47 @@
     <!-- Font awesome link -->
     <script src="https://kit.fontawesome.com/0ea4bc6e41.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/quiz.css">
+    <link rel="stylesheet" href="style.css">
 
     <title>Macramé Quiz</title>
 </head>
 <body>
     <nav>
-
         <div>
-        <a href="index.html"><h1 id="logo"><img src="assets/images/logo.jpg" alt="Logo"></h1></a>
+        <a href="index.html"><h1 id="logo"><img src="assets/images/logo.png" alt="Logo"></h1></a>
         </div>
         <h2 class="heading">Macramé Quiz!</h2>
     </nav> 
 
-    <div class="outer-image">
-        <div class="cover-image"></div>
-    </div>
-    
-    <!--Home Page-->
+    <div class="start_quiz">Lets Play!</div>
 
-        <div class="container">
-            <div id="home" class="flex-column flex-center">
-                <a href="quiz.html" id="play-btn" class="play-btn">Lets Play!</a>
-                <a href="scoreboard.html" id="scoreboard-btn" class="btn">Score Board</a>
+    <div class="quiz-box hidden">
+        <h2 class="question_input">' '</h2>
+        <div class="options">
+        </div>
+        <div class="quiz-bottom">
+            <div class="bottom-left">
+                <span class="count_que"></span> of <span class="total_q"></span> Questions
+            </div>
+            <div class="bottom-right">
+                <div class="next-btn hidden">Next Question</div>
             </div>
         </div>
+    </div>
+
+    <div class="result-box hidden">
+        <h2>***Final Result***</h2>
+        <div class="result">
+            <h3 class="total-question">Number of Questions : <span></span></h3>
+            <h3 class="correct-answers">Correct Answers : <span></span></h3>
+            <h3 class="wrong-answer">Wrong Answers : <span></span></h3>
+            <h3 class="score">You've Scored : <span></span></h3>
+        </div>
+        <div class="end-btn">
+            <div class="play-again">Play Again</div>
+            <a href="index.html" class="exit">Exit</a>
+        </div>
+    </div>
 
     <!-- Social network links -->
 
@@ -61,9 +76,7 @@
         </ul>
     </footer>
 
-    <script src="assets/js/quiz.js"></script>
-    <script src="assets/js/finish.js"></script>
-    <script src="assets/js/highscore.js"></script>
-    
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
