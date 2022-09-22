@@ -4,8 +4,8 @@
 
 # Goal for this Project
 Welcome to Macramé Quiz.
-This quiz is created to test your knowledge about Macramé.
-I have added some history questions and some questions from the present times.
+Reason for choosing a quiz for my project is to test the knowledge of the person therefore I have added some history questions and some questions from the present times. 
+This project also directly connects with my first project "The Knots".
 
 ![Responsive Displays](assets/images/webpage/responsiveness.JPG)
 
@@ -43,10 +43,9 @@ I have added some history questions and some questions from the present times.
 * Visually appealing.
 * Easily navigated around.
 * Quality and valuable content.
-* Form to save score.
 
 ## User Inputs
-* As a user I want the quiz game to save my score so I can compete with my friends and family.
+* As a user I want to see my score in the end.
 * As a user I want to be asked tricky question so I can test my knowlodge about Macramé.
 * As a user I want to be able to make contact to the website owner via different social media.
 * As a user I want to be able to easily navigate through the website.
@@ -116,7 +115,7 @@ I have used Photoshop to develop wireframes for my website. I initially created 
 
    *Desktop*
 
-+ The welcome page includes play button and High score button.
++ The welcome page includes "Lets Play" button. Once this button is pressed the quiz will start.
 
     ![Welcome Page](assets/images/webpage/welcome-page.JPG)
 
@@ -130,8 +129,8 @@ It also includes useful information such as number of questions.
 
  ### Scoreboard
 
-+ This page includes the total score that 1 scores.
-There are also couple of usefull buttons to navigate such as "Play Again" and "Exit" button.
++ This page includes the total score that user has scored.
+There are also couple of usefull buttons to navigate such as "Play Again" and "Exit" button. Clicking on the "Exit" button will take the user to the home page.
 
     ![Save Result](assets/images/webpage/result-page.JPG)
 
@@ -144,7 +143,7 @@ There are also couple of usefull buttons to navigate such as "Play Again" and "E
 
 ## Unfixed Bugs
 
-I wanted to add a function where if the selected answer is incorret the correct andwer will be triggered as well and highlight "green" but after trying many different combination of codes I could fix this.
+There are no unfixed bugs.
 
 # Languages and Websites used
 
@@ -158,7 +157,7 @@ I wanted to add a function where if the selected answer is incorret the correct 
 * [Photoshop](https://en.wikipedia.org/wiki/Adobe_Photoshop "Photoshop")
 * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
-* [JShint Validation Service](https://jshint.com/ "JShint")
+* [Extends Class Validation Service](https://extendsclass.com/javascript-fiddle.html "extendsclass")
 * [Font Awesome library](https://fontawesome.com/ "Font Awesome")
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
 
@@ -166,13 +165,13 @@ I wanted to add a function where if the selected answer is incorret the correct 
 
 ## Responsiveness
 
-I feel that the site has hit the goals are required by everyone. The site responds nicely to all different screen sizes, the question section looks clean and responsive. It allows the user to save the their score The content is simple and to the point and the site is not overcrowded.
+I feel that the site has hit the goals that are required by everyone. The site responds nicely to all different screen sizes, the question section looks clean and responsive. The content is simple and to the point and the site is not overcrowded.
 \
 &nbsp;
 
 ## Validation
 
-I have validated my project with the [W3C Validator](https://www.w3.org/ "HTML and CSS") and I used JShind [JShind](https://jshint.com/ "JavaScript") to validate my Javascript codes.
+I have validated my project with the [W3C Validator](https://www.w3.org/ "HTML and CSS") and I used JShind [ExtendsClass](https://extendsclass.com/javascript-fiddle.html"JavaScript") to validate my Javascript codes.
 
 I've got few warnings for my JavaScript files but most of them were for "Missing semicolon" so I left them the way they were.
 
@@ -225,7 +224,7 @@ I used my wife's (Daima Zainab) thesis on Macramé and Celtic art.
 
 &nbsp;
 
-For code insperation I have looked into my first project "The Knots" to see which way the code reacted if changed into certein way and then applied the same on my second project which is Macramé Quiz project.
+For code insperation I have looked into my first project "The Knots" to see which way the code reacted if changed into certain way and then applied the same method on my second project which is Macramé Quiz project.
 I also wanted to keep the same theme as my first project so in future I could link the quiz to my website.
 
 For code inspirations I went through my notes that I took throughout the course and also I checked out few Youtube videos such as (https://www.youtube.com/watch?v=WUBhpSRS_fk&ab_channel=CodingNepal) to understand the codes better and use them correctly.
