@@ -1,4 +1,4 @@
-![Logo](assets/images/logo.jpg)
+![Logo](assets/images/webpage/logo.jpg)
 
 # Macramé Quiz
 
@@ -7,7 +7,7 @@ Welcome to Macramé Quiz.
 This quiz is created to test your knowledge about Macramé.
 I have added some history questions and some questions from the present times.
 
-![Responsive Displays](assets/images/webpage/responsiveness.PNG)
+![Responsive Displays](assets/images/webpage/responsiveness.JPG)
 
 # Table of Contents
 * [UX](#ux "UX")
@@ -118,29 +118,23 @@ I have used Photoshop to develop wireframes for my website. I initially created 
 
 + The welcome page includes play button and High score button.
 
-    ![Welcome Page](assets/images/webpage/welcome-page.PNG)
+    ![Welcome Page](assets/images/webpage/welcome-page.JPG)
 
 ### Quiz page
 
 + The Quiz page includes questions and answer choices.
-It also includes useful information such as number of questions and score.
+It also includes useful information such as number of questions.
 
-    ![Quiz Page](assets/images/webpage/quiz.PNG)
+    ![Quiz Page](assets/images/webpage/quiz.JPG)
 
-
-### Save Result
-
-+ This page includes the total score that 1 scores.
-It also lets you save your score to so you can compete with friends and family.
-There also usefull buttons to navigate such as "Play Again" and "Home" button.
-
-    ![Save Result](assets/images/webpage/result-save.PNG)
 
  ### Scoreboard
 
-+ The Scoreboard page gives the score history and "Home" for user to go back to the main page.
++ This page includes the total score that 1 scores.
+There are also couple of usefull buttons to navigate such as "Play Again" and "Exit" button.
 
-    ![Scoreboard](assets/images/webpage/scoreboard.PNG)
+    ![Save Result](assets/images/webpage/result-page.JPG)
+
 
     \
 &nbsp;
@@ -184,14 +178,14 @@ I've got few warnings for my JavaScript files but most of them were for "Missing
 
 Below are the validation images.
 
-![HTML snd CSS](assets/images/validation/HTML-CSS-Validate.jpg)
+![HTML snd CSS](assets/images/validation/HTML-CSS-Validate.png)
 
-![JavaScript](assets/images/validation/JS-VALIDATION.jpg)
+![JavaScript](assets/images/validation/JS-VALIDATION.JPG)
 
 
 ## Lighthouse
 
-![Lighthouse](assets/images/validation/lighthouse.PNG)
+![Lighthouse](assets/images/validation/lighthouse.JPG)
 
 
 \
