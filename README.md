@@ -24,7 +24,6 @@ This project also directly connects with my first project "The Knots".
         * [Existing Features](#existing-features)
             * [Welcome Page](#welcome-page)
             * [Quiz Page](#Quiz-page)
-            * [Save Result](#Save-Result)
             * [Scoreboard Result](#Scoreboard)
         * [Unfixed Bugs](#unfixed-bugs)
     * [Languages and Websites used](#languages-and-websites-used)
@@ -59,12 +58,12 @@ This project also directly connects with my first project "The Knots".
 ### Requirements
 * Easy to navigate on various screen sizes.
 * Keep the user interested with information to make them want to engage with the website.
-* Visually inviting so users do not leave and recommend to friends and family.
+* Visually inviting so users do not leave and would recommend to friends and family.
 
 ### Expectations
 * I expect all links to social media sites to be opened in a new tab.
 * I expect all navigation links to work correctly.
-* I expect screen size not to affect the quality of the website.
+* I expect screen size would not affect the quality of the website.
 * I expect all answers to the questions to be correct and accurate.
 
 
@@ -72,7 +71,7 @@ This project also directly connects with my first project "The Knots".
 
 ### Fonts
 In order to make the quiz more appealing, I have used the 
-[Google Fonts](https://fonts.google.com/ "Google Fonts") to find a text that best suits the feel of the website. For the main "Macramé Quiz" I have used [Beau Rivage](https://fonts.google.com/specimen/Beau+Rivage?query=mon "Beau Rivage Font") as I believe it needed to look different than the rest of the website but not too different that it starts looking weird. For the questions I have used the [Ibarra Real Nova]('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500&display=swap') font and for the options I a used the [Lato]('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap') font.
+[Google Fonts](https://fonts.google.com/ "Google Fonts") to find a text that best suits the feel of the website. For the main "Macramé Quiz" I have used [Beau Rivage](https://fonts.google.com/specimen/Beau+Rivage?query=mon "Beau Rivage Font") as I believe it gives the "Macramé" sort of feel and also it needed to look different than the rest of the website but not too different that it starts looking weird. For the questions I have used the [Ibarra Real Nova]('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500&display=swap') font and for the options I used the [Lato]('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap') font.
 I believe these two font sits really well together.
 
 
@@ -90,15 +89,12 @@ I have used Photoshop to develop wireframes for my website. I initially created 
 
 **Wireframe Home Page**
 
-![Wireframe Home](assets/images/wireframes/main-quiz.jpg)
+![Wireframe Quiz](assets/images/wireframes/main-quiz.jpg)
 
-**Wireframe Quiz Page**
+**Wireframe Scoreboard**
 
-![Wireframe Quiz](assets/images/wireframes/scoreboard.jpg)
+![Wireframe Scoreboard](assets/images/wireframes/scoreboard.jpg)
 
-**Wireframe Scoreboard Page**
-
-![Wireframe Scoreboard](assets/images/wireframes/finish.jpg)
 
 \
 &nbsp;
@@ -171,7 +167,7 @@ I feel that the site has hit the goals that are required by everyone. The site r
 
 ## Validation
 
-I have validated my project with the [W3C Validator](https://www.w3.org/ "HTML and CSS") and I used JShind [ExtendsClass](https://extendsclass.com/javascript-fiddle.html"JavaScript") to validate my Javascript codes.
+I have validated my project with the [W3C Validator](https://www.w3.org/ "HTML and CSS") and I used [ExtendsClass](https://extendsclass.com/javascript-fiddle.html"JavaScript") to validate my Javascript codes.
 
 I've got few warnings for my JavaScript files but most of them were for "Missing semicolon" so I left them the way they were.
 
