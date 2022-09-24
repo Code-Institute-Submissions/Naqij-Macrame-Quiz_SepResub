@@ -47,7 +47,7 @@ Goal for this project is to show what I have learnt so far and have some fun at 
 
 ## User Inputs
 * As a user I want to see my score in the end.
-* As a user I want to be asked tricky question so I can test my knowlodge about Macramé.
+* As a user I want to be asked tricky questions so I can test my knowlodge about Macramé.
 * As a user I want to be able to make contact to the website owner via different social media.
 * As a user I want to be able to easily navigate through the website.
 
