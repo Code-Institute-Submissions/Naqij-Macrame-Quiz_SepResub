@@ -4,8 +4,10 @@
 
 # Goal for this Project
 Welcome to Macramé Quiz.
-Reason for choosing a quiz for my project is to test the knowledge of the person therefore I have added some history questions and some questions from the present times. 
+Reason for choosing a quiz for my project is to test the knowledge of the person and see if they know the basics of Macramé, I have added few history questions and few questions from the present time. 
 This project also directly connects with my first project "The Knots".
+
+Goal for this project is to show what I have learnt so far and have some fun at the sametime.
 
 ![Responsive Displays](assets/images/webpage/responsiveness.JPG)
 
