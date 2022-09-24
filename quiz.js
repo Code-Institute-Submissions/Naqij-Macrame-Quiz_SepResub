@@ -1,3 +1,5 @@
+// Alert set for tablet users 
+
 alert("Please rotate 90 degrees for best experience on a tablet");
 
 const start_btn = document.querySelector(".start_quiz");
@@ -14,23 +16,25 @@ const wrong_ans_r = document.querySelector(".wrong-answer span");
 const score = document.querySelector(".score span");
 const again_quiz = document.querySelector(".end-btn .play-again");
 
+// Icon for correct and wrong answers
+
 const mark_wrong = '<i class="fa fa-times"></i>';
 const mark_check = '<i class="fa fa-check"></i>';
 
+// Hide the page the user is on and open the new page instead
 
 start_btn.onclick =()=>{
     quiz_box.classList.remove("hidden");
     start_btn.classList.add("hidden");
 }
 
-total_q.innerText = questions.length;
-total_que_r.innerText = questions.length;
-
 var que_index = 0;
 var right_answers = 0;
 var wrong_answers = 0;
 count_que.innerText = que_index+1;
 ShowQuestion(que_index);
+
+// display question and options
 
 function ShowQuestion(q_index){
     question_input.innerText = questions[q_index].num+". "+ questions[q_index].question;
@@ -49,7 +53,6 @@ var AllOptions = options_box.querySelectorAll(".option");
     next_btn.classList.add("hidden");
 }
 
-
 next_btn.onclick=()=>{
     que_index++;
     
@@ -57,20 +60,18 @@ next_btn.onclick=()=>{
         count_que.innerText = que_index+1;
         ShowQuestion(que_index);
     }else{
-        console.log("Questions Complete");
+        console.log("Answered all Questions");
         quiz_box.classList.add("hidden");
         result_box.classList.remove("hidden");
         right_ans_r.innerText = right_answers;
         wrong_ans_r.innerText = wrong_answers;
         score.innerText = ((right_answers*100)/questions.length).toFixed(2)+"%";
-
         
     }
 
-    if(questions.length-1==que_index){
-        next_btn.innerText = "Finish";
-    }
 }
+
+// User options selecting
 
 function UserAnswer(answer){
     let userAns = answer.innerText;
@@ -97,12 +98,9 @@ function UserAnswer(answer){
         }
     }
 
-
-    for(var j=0; j<AllOptions2.length; j++){
-        AllOptions2[j].classList.add("disabled");
-    }
-
 }
+
+// Restart quiz from scoreboard "play again" button
 
 again_quiz.onclick=()=>{
     quiz_box.classList.remove("hidden");
@@ -111,6 +109,8 @@ again_quiz.onclick=()=>{
     reset();
 
 }
+
+// Reset and restart quiz from the beginning
 
 function reset(){
     que_index = 0;
